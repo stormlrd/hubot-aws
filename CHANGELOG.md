@@ -1,31 +1,5 @@
 # Change Log
 
-## [v0.5.0](https://github.com/yoheimuta/hubot-aws/tree/v0.5.0) (2016-08-19)
-
-[Full Changelog](https://github.com/yoheimuta/hubot-aws/compare/v0.4.0...v0.5.0)
-
-**Merged pull requests:**
-
-- Issue \#39 - Add SNS Support [\#47](https://github.com/yoheimuta/hubot-aws/pull/47) ([toadkicker](https://github.com/toadkicker))
-
-- Upgrade moment to 2.13.0 [\#45](https://github.com/yoheimuta/hubot-aws/pull/45) ([waniji](https://github.com/waniji))
-
-## [v0.4.0](https://github.com/yoheimuta/hubot-aws/tree/v0.4.0) (2016-06-27)
-
-[Full Changelog](https://github.com/yoheimuta/hubot-aws/compare/v0.3.1...v0.4.0)
-
-**Merged pull requests:**
-
-- Added command of autoscaling scheduled action \[ls|put|delete\] [\#46](https://github.com/yoheimuta/hubot-aws/pull/46) ([waniji](https://github.com/waniji))
-
-## [v0.3.1](https://github.com/yoheimuta/hubot-aws/tree/v0.3.1) (2016-06-23)
-
-[Full Changelog](https://github.com/yoheimuta/hubot-aws/compare/v0.3.0...v0.3.1)
-
-**Merged pull requests:**
-
-- Upgrade aws-sdk-js to the latest version [\#44](https://github.com/yoheimuta/hubot-aws/pull/44) ([waniji](https://github.com/waniji))
-
 ## [v0.3.0](https://github.com/yoheimuta/hubot-aws/tree/v0.3.0) (2016-01-07)
 
 [Full Changelog](https://github.com/yoheimuta/hubot-aws/compare/v0.2.0...v0.3.0)

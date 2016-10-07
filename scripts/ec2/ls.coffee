@@ -37,10 +37,9 @@ module.exports = (robot) ->
     msg_txt += " containing '#{ins_filter}' in name" if ins_filter
     msg_txt += "..."
     msg.send msg_txt
-
+    #aws = require 'aws-sdk'
     aws = require('../../aws.coffee').aws()
     ec2 = new aws.EC2({apiVersion: '2014-10-01'})
-
     ec2.describeInstances (if ins_id then { InstanceIds: [ins_id] } else null), (err, res) ->
       if err
         msg.send "DescribeInstancesError: #{err}"
@@ -79,4 +78,6 @@ module.exports = (robot) ->
           messages.sort (a, b) ->
             moment(a.time) - moment(b.time)
           message = tsv.stringify(messages) || '[None]'
+          aws = ""
+          ec2 = ""
           msg.send message

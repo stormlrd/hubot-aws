@@ -4,5 +4,6 @@ module.exports = {
     aws.config.accessKeyId     = process.env.HUBOT_AWS_ACCESS_KEY_ID
     aws.config.secretAccessKey = process.env.HUBOT_AWS_SECRET_ACCESS_KEY
     aws.config.region          = process.env.HUBOT_AWS_REGION
+    aws.config.update({accessKeyId: aws.config.accessKeyId, secretAccessKey: aws.config.secretAccessKey});
     return aws
 }

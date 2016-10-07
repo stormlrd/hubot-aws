@@ -1,36 +1,67 @@
 {
-  "name": "hubot-aws",
-  "version": "0.5.0",
-  "description": "Hubot masters aws commands",
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com/yoheimuta/hubot-aws.git"
-  },
-  "main": "index.coffee",
-  "scripts": {
-    "test": "grunt test"
-  },
-  "dependencies": {
-    "aws-sdk": "2.4.1",
-    "tsv": "0.2.0",
-    "async": "0.9.0",
-    "underscore": "1.8.3",
-    "cson": "3.0.1",
-    "moment": "2.13.0"
-  },
-  "keywords": [
-    "aws",
-    "hubot",
-    "hubot-scripts",
-    "hubot aws",
-    "hubot-aws",
-    "aws-cli"
+  "_args": [
+    [
+      {
+        "raw": "hubot-aws@0.3.1",
+        "scope": null,
+        "escapedName": "hubot-aws",
+        "name": "hubot-aws",
+        "rawSpec": "0.3.1",
+        "spec": "0.3.1",
+        "type": "version"
+      },
+      "/Users/stormlrd/dev/chatbots/hubot/hubot-test"
+    ]
   ],
+  "_from": "hubot-aws@0.3.1",
+  "_id": "hubot-aws@0.3.1",
+  "_inCache": true,
+  "_location": "/hubot-aws",
+  "_nodeVersion": "0.10.26",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/hubot-aws-0.3.1.tgz_1466669746028_0.4771630549803376"
+  },
+  "_npmUser": {
+    "name": "yoheimuta",
+    "email": "yoheimuta@gmail.com"
+  },
+  "_npmVersion": "2.8.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "hubot-aws@0.3.1",
+    "scope": null,
+    "escapedName": "hubot-aws",
+    "name": "hubot-aws",
+    "rawSpec": "0.3.1",
+    "spec": "0.3.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hubot-aws/-/hubot-aws-0.3.1.tgz",
+  "_shasum": "1d43af934c8209de428486864372d48e5cf02c8f",
+  "_shrinkwrap": null,
+  "_spec": "hubot-aws@0.3.1",
+  "_where": "/Users/stormlrd/dev/chatbots/hubot/hubot-test",
+  "author": {
+    "name": "yoheimuta",
+    "email": "yoheimuta@gmail.com"
+  },
   "bugs": {
     "url": "https://github.com/yoheimuta/hubot-aws/issues"
   },
-  "author": "yoheimuta <yoheimuta@gmail.com>",
-  "license": "MIT",
+  "dependencies": {
+    "async": "0.9.0",
+    "aws-sdk": "2.4.1",
+    "cson": "3.0.1",
+    "moment": "2.10.2",
+    "tsv": "0.2.0",
+    "underscore": "1.8.3"
+  },
+  "description": "Hubot masters aws commands",
   "devDependencies": {
     "coffee-errors": "^0.8.6",
     "coffee-script": "^1.10.0",
@@ -43,5 +74,39 @@
     "grunt-simple-mocha": "^0.4.0",
     "matchdep": "^1.0.0",
     "sinon": "^1.17.1"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "1d43af934c8209de428486864372d48e5cf02c8f",
+    "tarball": "https://registry.npmjs.org/hubot-aws/-/hubot-aws-0.3.1.tgz"
+  },
+  "gitHead": "94554c4650e813ac3554158c710291059709fe07",
+  "homepage": "https://github.com/yoheimuta/hubot-aws#readme",
+  "keywords": [
+    "aws",
+    "hubot",
+    "hubot-scripts",
+    "hubot aws",
+    "hubot-aws",
+    "aws-cli"
+  ],
+  "license": "MIT",
+  "main": "index.coffee",
+  "maintainers": [
+    {
+      "name": "yoheimuta",
+      "email": "yoheimuta@gmail.com"
+    }
+  ],
+  "name": "hubot-aws",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yoheimuta/hubot-aws.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.3.1"
 }
